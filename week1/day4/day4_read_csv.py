@@ -17,6 +17,6 @@ print("Capacities:", capacities)
 # Apply scientific logic: capacity fade calculation 
 initial_capacity = capacities[0]
 print("\nCapacity fade per cycle:")
-for cycle, cap in zip(cycles, capacities): # zip will pair cycle and capacity position wise like (1,2.5)
+for cycle, cap in zip(cycles, capacities): # zip will pair cycle and capacity position wise like (1,2.5)i
     fade = (initial_capacity - cap)/ initial_capacity*100
     print("Cycle", cycle, "- Fade:", round(fade, 2), "%")
