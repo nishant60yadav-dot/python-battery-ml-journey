@@ -19,4 +19,4 @@ initial_capacity = batttery_capacities[0]
 print("\nCapacity fade per cycle:")
 for cap in batttery_capacities:
     fade = calculate_capacity_fade_percentage(initial_capacity, cap)
-    print("capacity:", cap, "Ah-Fade", round(fade, 2), "%cond")
+    print("capacity:", cap, "Ah-Fade", round(fade, 2), "%")
